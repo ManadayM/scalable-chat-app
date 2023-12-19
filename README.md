@@ -1,6 +1,15 @@
-# Turborepo starter
+# Scalable Chat App
 
-This is an official starter Turborepo.
+This demo app demnostrates how one can add scalability to a chat app. The approach is to use a Redis layer a pub/sub interface.
+
+## How to run?
+- Spin up your Redis server. You can use [Aiven](https://aiven.io) for FREE!
+- Inside `apps/server` directory run `cp .env.sample .env`.
+- Set right keys in the lately copied `.env` file.
+- Run all the applications - `yarn dev`.
+
+## Turborepo Boilerplate 👇👇👇 
+---
 
 ## Using this example
 
